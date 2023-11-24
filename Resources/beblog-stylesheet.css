@@ -1,0 +1,45 @@
+* {
+    background-color: #164863;
+    font-family: "Helvetica";
+    color: #DDF2FD;
+    letter-spacing: 2px;
+}
+
+h1{
+    font-size: 64px;
+}
+
+p{
+    font-size: 32px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-image{
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+}
+.banner-image img{
+    width: 100%;
+    height: auto;
+}
+
+.banner-overlay-box{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    padding: 10px 20px;
+    width: 550px;
+    height: auto;
+    background-color: rgba(22, 72, 99, 0.7);
+    border-radius: 5px; 
+    
+}
+.banner-overlay-box p, h1{
+    background-color: rgba(22, 72, 99, 0);
+    width: 100%;
+    height: auto;
+}
