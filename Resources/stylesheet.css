@@ -1,0 +1,137 @@
+* {
+    background-color: #164863;
+    font-family: "Helvetica";
+    color: #DDF2FD;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+p {
+    font-size: 32px;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 5px;
+    background-color: rgba(22, 72, 99, 0.8);
+}
+
+.nav-bar {
+    list-style: none;
+    display: inline-flex;
+    font-size: 28px;
+    margin: 20px 15px;
+    background-color: rgba(22, 72, 99, 0);
+}
+
+.nav-bar li {
+    letter-spacing: 3px;
+    padding-right: 50px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    background-color: rgba(22, 72, 99, 0);
+}
+
+
+.nav-bar a {
+    color: rgb(155, 190, 200);
+    letter-spacing: 3px;
+    text-decoration: none;
+    background-color: rgba(22, 72, 99, 0);
+}
+
+.nav-bar a:link {
+    color: rgb(155, 190, 200);
+
+}
+
+.nav-bar a:visited {
+    color: rgb(155, 190, 200);
+
+}
+
+.nav-bar a:hover {
+    color: mediumpurple;
+    text-shadow: 3px 3px 3px black;
+
+}
+
+.nav-bar a:active {
+    color: white;
+
+}
+
+.footer {
+    text-align: center;
+    position: static;
+    z-index: 2;
+}
+
+/* INDEX SPECIFIC CSS */
+
+.banner-image {
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    margin-top: -150px;
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+}
+
+.banner-overlay-box {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    padding: 10px 20px;
+    width: 550px;
+    height: auto;
+    background-color: rgba(22, 72, 99, 0.8);
+    border-radius: 5px;
+    text-align: justify;
+
+}
+
+.banner-overlay-box p,
+h1 {
+    background-color: rgba(22, 72, 99, 0);
+    width: 100%;
+    height: auto;
+}
+
+/* BLOG POST STYLING */
+
+
+
+
+
+/* ABOUT SPECIFIC CSS */
+
+
+
+
+
+/* GAMES SPECIFIC CSS */
+
+
+
+
+/*SITES SPECIFIC CSS */
