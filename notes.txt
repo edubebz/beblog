@@ -1,2 +1,6 @@
 Base page that links to internal sites using blog posts to access each one to showcase design.
 
+rgb(22, 72, 99)
+rgb(66, 125, 157)
+rgb(155, 190, 200)
+rgb(221, 242, 253)
